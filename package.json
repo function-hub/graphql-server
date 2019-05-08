@@ -5,12 +5,16 @@
     "start": "nodemon --exec ts-node src/index.ts"
   },
   "license": "MIT",
+  "engines": {
+    "node": ">=10.0.0"
+  },
   "dependencies": {
     "apollo-server": "^2.4.8",
     "graphql": "^14.2.1",
     "nodemon": "^1.19.0"
   },
   "devDependencies": {
+    "source-map-support": "^0.5.12",
     "ts-node": "^8.1.0",
     "typescript": "^3.4.5"
   }
